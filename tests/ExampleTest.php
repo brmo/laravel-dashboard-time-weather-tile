@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\TimeWeatherTile\Tests;
+namespace Brmo\TimeWeatherTile\Tests;
 
 use PHPUnit\Framework\TestCase;
 
