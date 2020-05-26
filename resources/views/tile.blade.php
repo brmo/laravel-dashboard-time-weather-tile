@@ -52,8 +52,8 @@
                         .substr(0, 3);
 
                     const date = [
-                        this.dateTime.getDate(),
                         this.dateTime.getMonth() + 1,
+                        this.dateTime.getDate(),
                     ].map(this.padNumber).join('/');
 
                     return `${day} ${date}`;

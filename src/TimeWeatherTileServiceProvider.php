@@ -1,11 +1,10 @@
 <?php
 
-namespace Spatie\TimeWeatherTile;
+namespace Brmo\TimeWeatherTile;
 
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Spatie\TimeWeatherTile\Commands\FetchBuienradarForecastsCommand;
-use Spatie\TimeWeatherTile\Commands\FetchOpenWeatherMapDataCommand;
+use Brmo\TimeWeatherTile\Commands\FetchOpenWeatherMapDataCommand;
 
 class TimeWeatherTileServiceProvider extends ServiceProvider
 {
@@ -15,7 +14,6 @@ class TimeWeatherTileServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                FetchBuienradarForecastsCommand::class,
                 FetchOpenWeatherMapDataCommand::class,
             ]);
         }

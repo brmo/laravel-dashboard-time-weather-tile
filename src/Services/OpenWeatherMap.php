@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\TimeWeatherTile\Services;
+namespace Brmo\TimeWeatherTile\Services;
 
 use Illuminate\Support\Facades\Http;
 

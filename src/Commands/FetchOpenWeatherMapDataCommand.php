@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\TimeWeatherTile\Commands;
+namespace Brmo\TimeWeatherTile\Commands;
 
 use Illuminate\Console\Command;
-use Spatie\TimeWeatherTile\Services\OpenWeatherMap;
-use Spatie\TimeWeatherTile\TimeWeatherStore;
+use Brmo\TimeWeatherTile\Services\OpenWeatherMap;
+use Brmo\TimeWeatherTile\TimeWeatherStore;
 
 class FetchOpenWeatherMapDataCommand extends Command
 {

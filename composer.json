@@ -1,11 +1,11 @@
 {
-    "name": "spatie/laravel-dashboard-time-weather-tile",
+    "name": "brmo/laravel-dashboard-time-weather-tile",
     "description": "A tile for Laravel Dashboard that displays the time and the weather",
     "keywords": [
-        "spatie",
+        "brmo",
         "laravel-dashboard-time-weather-tile"
     ],
-    "homepage": "https://github.com/spatie/laravel-dashboard-time-weather-tile",
+    "homepage": "https://github.com/brmo/laravel-dashboard-time-weather-tile",
     "license": "MIT",
     "authors": [
         {
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\TimeWeatherTile\\": "src"
+            "Brmo\\TimeWeatherTile\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\TimeWeatherTile\\Tests\\": "tests"
+            "Brmo\\TimeWeatherTile\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\TimeWeatherTile\\TimeWeatherTileServiceProvider"
+                "Brmo\\TimeWeatherTile\\TimeWeatherTileServiceProvider"
             ]
         }
     },

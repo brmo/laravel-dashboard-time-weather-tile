@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\TimeWeatherTile;
+namespace Brmo\TimeWeatherTile;
 
 use Livewire\Component;
 
